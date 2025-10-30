@@ -1,4 +1,19 @@
-# End-to-End Machine Learning
+# 🚀 MLFlowX: End-to-End MLOps Iris Classifier  
+
+A complete **MLOps pipeline** that automates the process of **training, validating, and deploying** a machine learning model securely — all in one place.  
+This project demonstrates how to use **Flask**, **Streamlit**, **MLflow**, and **joblib** to build a real-world ML pipeline for the classic **Iris Flower Classification** dataset 🌸.
+
+
+## 🌟 Overview  
+
+MLFlowX shows how data scientists can go from **raw data ➡️ deployed model ➡️ monitored pipeline** using practical tools and clear workflows.  
+
+The project includes:
+- 🧠 Model training and evaluation pipeline  
+- 🧩 Token-based authentication for secure API access  
+- 📡 RESTful API for real-time predictions  
+- 💻 Streamlit web app interface for interactive use  
+- 📊 Automated model report generation and versioning 
 
 ## Project Description  
 
@@ -141,65 +156,6 @@ Web service in this project focuses on classifying Iris flowers using machine le
   | :--: |
   | Image 4: Web App Main Page Display |   
 
-## Usage  
-
-To use this project, follow these steps:
-1. Clone this repository to your local machine: `git clone https://github.com/m-nanda/End-to-End-ML.git `
-
-2. Go to the project folder in a terminal or command prompt
-    ```bash
-    cd End-to-End-ML
-    ```
-
-3. Create a virtual environment  
-    ```bash
-    python -m venv .venv
-    ```
-
-4. Activate virtual environment (windows)
-    ```bash
-    .venv/Scripts/activate
-    ```
-
-5. Install the necessary dependencies 
-    ```bash
-    pip install -r requirements.txt
-    ```  
-6. Create `.env` file to store credentials which at least contain:
-    - `DATA_SOURCE` $ \rarr $  link to access Iris Dataset 
-    - `SECRET_KEY` $ \rarr $ secret key for authentication
-    - `USERS` $ \rarr $ dict of users and passwords to access API and Web App
-    - `ALGORITHM` $ \rarr $ specific algorithm for authentication 
-    - `AUTH_URL` $ \rarr $ endpoint of auth service
-    - `VALIDATE_TOKEN` $ \rarr $ endpoint to validate token for authentication
-    - `ML_API_1` $ \rarr $ endpoint of ml prediction with custom input data
-    - `ML_API_2` $ \rarr $ endpoint of ml prediction for existing data
-
-7. Run the pipeline:
-    ```bash
-    python pipeline.py
-    ```
-    If successful, the terminal will display information like the following (the time required may vary):
-    | ![run pipeline.py](img/run_pipeline.jpg) | 
-    | :--: |
-    | Image 5: Result of pipeline.py in Terminal |
-    
-
-8. Run the Auth Service
-    ```bash
-    python auth.py
-    ```
-
-9. Run the ML-API
-    ```bash
-    python api.py
-    ```
-
-10. Run the Web App  
-    ```bash
-    streamlit run web_app.py
-    ```
-
 ## Result  
 
 1. Report  
@@ -249,7 +205,3 @@ To use this project, follow these steps:
      | ![Web App Predicting Existing Data](img/web_prediction_tab2.png) |
      | :--: |
      | Image 10: Web App Tab _Exsting (by index)_ and prediction result |  
-
-## License  
-
-This project is released under the MIT License. You are free to use, modify, and distribute this code as you wish.
