@@ -89,7 +89,7 @@ def login_page():
   footer = st.container()
   with footer:
     st.write('<hr>', unsafe_allow_html=True)
-    st.write('<h6 style="text-align:center";><i>Author: <a href="https://www.m-nanda.github.io">Muhammad Nanda</a></i></h6>', unsafe_allow_html=True)
+    st.write('<h6 style="text-align:center";><i>Author: <a href=" ">Aryan Kumar</a></i></h6>', unsafe_allow_html=True)
 
 def main_page():
   """
@@ -190,7 +190,7 @@ def main_page():
   footer = st.container()
   with footer:
     st.write('<hr>', unsafe_allow_html=True)
-    st.write('<h6 style="text-align:center";><i>Author: <a href="https://www.m-nanda.github.io">Muhammad Nanda</a></i></h6>', unsafe_allow_html=True)
+    st.write('<h6 style="text-align:center";><i>Author: <a href=" ">Aryan Kumar</a></i></h6>', unsafe_allow_html=True)
     
 # Streamlit app flow
 if 'access_token' not in st.session_state:
